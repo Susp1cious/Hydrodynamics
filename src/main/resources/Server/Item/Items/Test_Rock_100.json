@@ -8,9 +8,15 @@
   "Categories": [
     "Blocks.Rocks"
   ],
+  "Interactions": {
+    "Use": "ConfigurePipe"
+  },
   "PlayerAnimationsId": "Block",
   "Set": "Rock_Stone",
   "BlockType": {
+    "Flags": {
+      "IsUsable": true
+    },
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
@@ -26,7 +32,7 @@
       "Components": {
         "FluidStorageComponent": {
           "MaxStorage": 100,
-          "CurrentStorage": 100
+          "InitialValue": 100
         }
       }
     },
